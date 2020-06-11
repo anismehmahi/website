@@ -1,0 +1,83 @@
+<head>
+<meta charset="utf-8">
+<meta name="author" content="[VOTRE NOM]">
+<meta name="description" content="Livre sur la programmation">
+<meta name="keywords" content="livre, programmation">
+<link rel="stylesheet" href="style.css">
+
+<meta name="viewport" content="width=device -width ,initial -scale=1.0">
+<title>Introduction à la programmation</title>
+</head>
+<header>
+<div id="banner">
+  <img src="img/banner.png." alt="banner">
+</div>
+<h1 style="color:white">Introduction a la programmation</h1>
+</header>
+<nav>
+    <ul>
+      <li ><a href="index.html">menu principal</a></li>
+      <li><a href="auteur.html">présentation de l’auteur</a></li>
+      <li class="actif"><a href="#">contact</a></li>
+    </ul>
+</nav>
+
+<main>
+<form action="https://www.monsite.com/" method="post">
+  <section>
+    <h2>Informations personnelles</h2>
+    <label for="nom">Nom</label>
+    <input type="text" name="nom" id="nom">
+    <br>
+    <label for="Prenom">Prenom</label>
+    <input type="text" name="Prenom" id="Prenom">
+    <br>
+    <label for="age">Age</label>
+    <input type="number" max="80" min="17" id="age">
+    <br>
+    <label for="mail">Email</label>
+    <input type="email" id="mail">
+    <br>
+    <label >
+      Niveau
+    <select  name="niveau">
+      <option disabled selected>Choisir</option>
+      <option value="1cp">1 CP</option>
+      <option value="2cp">2 CP</option>
+      <option value="1cs">1CS</option>
+      <option value="2cs">2CS</option>
+      <option value="3cs">3CS</option>
+      <option value="Licence">Licence</option>
+      <option value="Master">Master</option>
+      <option value="Autre">Autre</option>
+    </select>
+</label>
+<br>
+Experience :
+</br>
+<label for="debutant">Debutant</label>
+<input type="radio" name="exp" id="Debutant"value="debutant" checked>
+<br>
+<label for="Inter">Intermediare</label>
+<input type="radio" name="exp" id="Inter" value="Inter">
+<br>
+<label for="avancé">Avancé</label>
+<input type="radio" name="exp" id="avancé" value="avancé">
+<br>
+   </section>
+   <section>
+     <h2>Opinion</h2>
+     <label>Les commentaires<input type="checkbox" name="" value="comments"></label>
+     <br>
+     <label>Les variables<input type="checkbox" name="" value="var"></label>
+     <br>
+     <label>Les instructions<input type="checkbox" name="" value="inst"></label>
+     <br>
+     <textarea name="name" rows="3" cols="60"></textarea>
+     <br>
+     <label>Télécharger un fichier : <input type="file" accept=".pdf .exe">
+       </label>
+   </section>
+</form>
+</main>
+<footer>Copyright & copy ;2020 <a href="mailto:mehmahi.dz@gmail.com?subject=feedback">Anis Mahmahi</a></footer>

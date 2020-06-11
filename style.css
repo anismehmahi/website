@@ -1,0 +1,146 @@
+header {
+  background: linear-gradient(#0d0a40, #1f1f95);
+  display: flex;
+  margin: 0;
+}
+header h1 {
+  margin: auto;
+}
+#banner{
+  margin: 5px
+}
+#banner > img {
+  height: 100px
+}
+footer {
+  background-color: #080c13;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+nav {
+  position: sticky ;
+  top: 0px;
+    margin-top: 0;
+  background-color: #130b7d;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+nav ul {
+margin: 0px;
+padding: 0px;
+}
+nav li {
+display: inline-block;
+}
+nav a {
+display: inline-block;
+margin: 5px;
+padding: 5px;
+color:white ;
+background-color:#1c1c9d;
+border: 2px solid #1a251d;
+border-radius: 2px;
+text-decoration: none;
+border-radius: 5px;
+}
+nav a:hover {
+  background-color: grey;
+  transition: background-color .5s;
+}
+.actif a{
+  background-color:#2e5b2d !important;
+}
+.actif:hover a{
+  background-color:#2e5b2d !important;
+  transition:none;
+}
+
+section{
+border: 3px solid #1a251d;
+border-radius: 10px;
+margin-top: 30px;
+position: relative;
+
+}
+section > h2 {
+padding: 0.2em;
+border: 3px solid #1a251d;
+border-radius: 10px;
+position: absolute;
+top:-1.7em;
+left: 10px;
+background-color: white;
+font-size: 1em;
+text-transform: uppercase;
+}
+section::before{
+  content: "";
+  display: block;
+  height: 1em;
+  margin-bottom: 5px;
+}
+table{
+  width: 97.25vw;
+
+}
+th , td {
+padding:5px;
+border-radius: 5px;
+}
+.cel_colones{
+background-color: #4a4c48;
+color: white;
+}
+
+.cel_lignes{
+  background-color:#5d5f59;
+  color: white;
+}
+.clair{
+  background-color:#7d8cdd ;
+}
+.clair2{
+  background-color:#c1c4ee ;
+  position: relative;
+}
+
+p{
+text-indent:2em;
+text-align: justify;
+
+}
+@font-face {
+  font-family: AngloText;
+  src: url("Anglo Text.ttf");
+}
+p::first-letter{
+  color: #07072a;
+  font-weight: normal;
+  font-family: AngloText;
+  font-size: 3em;
+}
+blockquote{
+  margin-left: 2em;
+  margin-right: 2em;
+  border: 1px solid #1a251d;
+  border-radius: 10px;
+  padding: 5px;
+  font-style: italic;
+  box-shadow:1px 1px 1px black;
+}
+aside{
+  background-color:#1a251d ;
+  border-left: 11px solid #3d443d;
+  font-style: italic;
+  margin-left: 15px;
+  padding: 5px;
+  float: right;
+  color: white;
+
+}
